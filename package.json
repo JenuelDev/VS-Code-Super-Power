@@ -20,17 +20,17 @@
       {
         "command": "vscode-super-power.copyFunctionReference",
         "title": "Super Power: Copy Function Reference"
+      },
+      {
+        "command": "vscode-super-power.copyReference",
+        "title": "Super Power: Copy Reference"
       }
     ],
     "menus": {
       "editor/context": [
         {
-          "command": "vscode-super-power.copyLineReference",
+          "command": "vscode-super-power.copyReference",
           "group": "9_cutcopypaste@100"
-        },
-        {
-          "command": "vscode-super-power.copyFunctionReference",
-          "group": "9_cutcopypaste@101"
         }
       ]
     }
