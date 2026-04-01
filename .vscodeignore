@@ -1,0 +1,9 @@
+.vscode/**
+.vscode-test/**
+src/**
+out/test/**
+.claude/**
+node_modules/**
+.gitattributes
+CLAUDE.md
+tsconfig.json

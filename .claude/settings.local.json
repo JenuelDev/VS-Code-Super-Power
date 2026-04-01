@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/Projects/Personal/**)",
+      "WebFetch(domain:code.visualstudio.com)",
+      "Bash(npm run:*)"
+    ]
+  }
+}

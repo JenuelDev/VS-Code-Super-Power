@@ -1,0 +1,56 @@
+{
+  "name": "vscode-super-power",
+  "displayName": "VS Code Super Power",
+  "description": "Super powers for VS Code — copy file references, and more",
+  "version": "0.0.1",
+  "publisher": "JenuelDev",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-super-power.copyLineReference",
+        "title": "Super Power: Copy Line Reference"
+      },
+      {
+        "command": "vscode-super-power.copyFunctionReference",
+        "title": "Super Power: Copy Function Reference"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "vscode-super-power.copyLineReference",
+          "group": "9_cutcopypaste@100"
+        },
+        {
+          "command": "vscode-super-power.copyFunctionReference",
+          "group": "9_cutcopypaste@101"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src",
+    "test": "vscode-test",
+    "pretest": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "typescript": "^5.3.3",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0"
+  }
+}
