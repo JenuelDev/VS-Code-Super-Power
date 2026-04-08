@@ -2,8 +2,12 @@
   "name": "vscode-super-power",
   "displayName": "VS Code Super Power",
   "description": "Super powers for VS Code — copy file references, and more",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JenuelDev/VS-Code-Super-Power.git"
+  },
   "version": "0.0.2",
-  "publisher": "JenuelDev",
+  "publisher": "JenuelDevOfficial",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -24,7 +28,7 @@
       },
       {
         "command": "vscode-super-power.copyReference",
-        "title": "Copy Referrence"
+        "title": "Copy Reference"
       },
       {
         "command": "vscode-super-power.goToReference",
