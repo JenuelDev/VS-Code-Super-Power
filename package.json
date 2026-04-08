@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/JenuelDev/VS-Code-Super-Power.git"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "JenuelDevOfficial",
   "engines": {
     "vscode": "^1.85.0"
@@ -14,7 +14,7 @@
   "categories": [
     "Other"
   ],
-  "icon": "assets/icon-256.png",
+  "icon": "assets/icon-400.png",
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
